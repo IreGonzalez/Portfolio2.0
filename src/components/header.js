@@ -1,9 +1,27 @@
 // STYLESHEET
-import "../styles/variables.css";
-import "../styles/header.css";
+
+import "../styles/Header.scss";
 
 const Header = (props) => {
-	return <Header className="Header"></Header>;
+	return (
+		<header>
+			<div>
+        <p>Home</p>
+				<p>Biografía</p>
+				<p>Proyectos</p>
+				<p>Currículum</p>
+        <p>Contacto</p>
+			</div>
+      <div>
+        <p>Linkedin</p>
+        <p>GitHub</p>
+      </div>
+			<p>
+				Irene
+				<br /> González
+			</p>
+		</header>
+	);
 };
 
 export default Header;

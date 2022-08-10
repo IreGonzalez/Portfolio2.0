@@ -1,11 +1,12 @@
 // STYLESHEET
-import "../styles/variables.css";
-import "../styles/footer.css";
+
+import "../styles/Footer.scss";
 
 const Footer = (props) => {
 	return (
-		<Footer className="Footer">
-		</Footer>
+      <footer>
+        FOOTER
+      </footer>
 	);
 };
 
