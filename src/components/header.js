@@ -1,5 +1,4 @@
 // STYLESHEET
-
 import "../styles/Header.scss";
 
 const Header = (props) => {
