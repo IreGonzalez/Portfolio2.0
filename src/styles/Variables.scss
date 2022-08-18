@@ -1,0 +1,146 @@
+:root {
+
+  // COLORS
+  --color_1: #333;
+  --color_2: #685245;
+  --color_3: #165832;
+  --color_4: #158672;
+  --color_5: #596348;
+  --color_6: #3565f3;
+  --color_7: ;
+  --color_8: ;
+  --color_9: ;
+
+  --shadow: rgba(0, 0, 0, 0.2);
+
+  // COLORS ASIGNED
+  --color_font: var(--color_1);
+  --color_font2: var(--color_2);
+
+    // Button
+  --color_font_button_A: var(--color_4);
+  --color_button_A: var(--color_3);
+  --color_button_A_hover: var(--color_4);
+
+  --color_font_button_B: var(--color_4);
+  --color_button_B: var(--color_3);
+  --color_button_B_hover: var(--color_4);
+  // Link
+  --color_link: var(--color_3);
+  --color_link_hover: var(--color_4);
+  // Background
+  --color_background: var(--color_5);
+  --color_background2: va(--color_6);
+
+  // FONTS
+
+    // Family
+      --font_text: 'Lato';
+      --font_title: 'Didot';
+
+    // Weight
+      --thin: 100;
+      --extraLight: 200;
+      --light: 300;
+      --regular: 400;
+      --medium: 500;
+      --semiBold: 600;
+      --bold: 700;
+      --extraBold: 800;
+      --black: 900;
+
+    // Size
+    --14: 14px;
+    --16: 16px;
+    --18: 18px;
+    --22: 22px;
+    --24: 24px;
+
+    // Size Asigned
+      --size_text_d: var(--18);
+      --size_text_m: var(--16);
+
+      --size_title_m: 28px;
+      --size_title_d: var(--24);
+
+      --size_subtitle_m: var(--24);
+      --size_subtitle_d: var(--22);
+
+      --size_button_m: var(--22);
+      --size_button_m: var(--18);
+
+      --size_link_m: var(--22);
+      --size_link_d: var(--18);
+
+      --size_menu_d: var(--22);
+      --size_menu_m: var(--18);
+
+      --size_logo_rrss_m: 45px;
+
+  /* MAX-WIDTH */
+    --width-xs: 100%;
+    --width-xs-container: 90%;
+    --width-m: 100%;
+    --width-m-container: 90%;
+    --width-t: 100%;
+    --width-t-container: 90%;
+    --width-d: 100%;
+    --width-d-container: 1054px;
+
+  // BACKGROUND
+    --backgound_header: var(--color_6) ;
+    --backgound_footer: var(--color_5);
+    --backgound_block: var(--color_4);
+}
+
+// MIXINS
+
+@mixin buttonA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color_button_A);
+  border: var(--color_button_A_hover) 1px solid;
+  color:var(--color_font_button_A);
+  font-size: var(--18);
+  line-height: var(--22);
+  border-radius: calc(3 * var(--22));
+  text-align: center;
+  padding: var(--22);
+}
+
+@mixin buttonB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color_button_B);
+  border: var(--color_button_B_hover) 1px solid;
+  color: var(--color_font_button_B);
+  font-size: var(--16);
+  line-height: var(--18);
+  border-radius: calc(3 * var(--18));
+  text-align: center;
+  padding: var(--16);
+}
+
+/************************CLASES COMUNES*************************/
+
+.active {
+  text-decoration: underline;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: initial;
+}
