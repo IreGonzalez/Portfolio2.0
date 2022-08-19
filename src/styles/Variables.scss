@@ -1,36 +1,41 @@
 :root {
 
   // COLORS
-  --color_1: #333;
-  --color_2: #685245;
-  --color_3: #165832;
-  --color_4: #158672;
-  --color_5: #596348;
-  --color_6: #3565f3;
-  --color_7: ;
-  --color_8: ;
-  --color_9: ;
+  --color_1: #d9dcd8;
+  --color_2: #9ba747;
+  --color_2t: #9ba7478c;
+  --color_3: #f29d4b;
+  --color_3t: #f29d4b8c;
+  --color_4: #d57030;
+  --color_4t: #d570308c;
+  --color_5: #8b281f;
+  --color_5t:#8b281f8c;
+  --color_6:#104960;
 
-  --shadow: rgba(0, 0, 0, 0.2);
+  --shadow: var(--color_5t);
 
   // COLORS ASIGNED
-  --color_font: var(--color_1);
-  --color_font2: var(--color_2);
+  --color_font: var(--color_6);
+  --color_font2: var(--color_5);
 
     // Button
-  --color_font_button_A: var(--color_4);
-  --color_button_A: var(--color_3);
-  --color_button_A_hover: var(--color_4);
+  --color_font_button_A: var(--color_6);
+  --color_button_A: var(--color_2);
+  --color_button_A_hover: var(--color_3);
 
-  --color_font_button_B: var(--color_4);
-  --color_button_B: var(--color_3);
-  --color_button_B_hover: var(--color_4);
+  --color_font_button_B: var(--color_5);
+  --color_button_B: var(--color_4);
+  --color_button_B_hover: var(--color_3);
+
   // Link
-  --color_link: var(--color_3);
+  --color_link: var(--color_5);
   --color_link_hover: var(--color_4);
+  --bg_link_hover: var(--color_5);
+
   // Background
-  --color_background: var(--color_5);
-  --color_background2: va(--color_6);
+  --bg-header: var(--color_5t);
+  --bg-footer: var(--color_5);
+  --bg-main: va(--color_6);
 
   // FONTS
 
@@ -88,10 +93,22 @@
     --width-d-container: 1054px;
 
   // BACKGROUND
-    --backgound_header: var(--color_6) ;
-    --backgound_footer: var(--color_5);
-    --backgound_block: var(--color_4);
 }
+
+body{
+  background-color: var(--color_1);
+  color: var(--color_font);
+}
+main {
+  padding-top: 150px;
+}
+a{
+  color: var(--color_link);
+  &:hover{
+    color: var(--color_link_hover);
+  }
+}
+
 
 // MIXINS
 
