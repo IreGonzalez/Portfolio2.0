@@ -28,12 +28,12 @@
   --color_button_B_hover: var(--color_3);
 
   // Link
-  --color_link: var(--color_5);
-  --color_link_hover: var(--color_4);
+  --color_link: var(--color_4);
+  --color_link_hover: var(--color_3);
   --bg_link_hover: var(--color_5);
 
   // Background
-  --bg-header: var(--color_5t);
+  --bg-header: var(--color_3t);
   --bg-footer: var(--color_5);
   --bg-main: va(--color_6);
 
@@ -102,12 +102,12 @@ body{
 main {
   padding-top: 150px;
 }
-a{
-  color: var(--color_link);
-  &:hover{
-    color: var(--color_link_hover);
-  }
-}
+// a{
+//   color: var(--color_link);
+//   &:hover{
+//     color: var(--color_link_hover);
+//   }
+// }
 
 
 // MIXINS
