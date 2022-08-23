@@ -2,6 +2,7 @@
 
   // COLORS
   --color_1: #d9dcd8;
+  --color_1t: #d9dcd8bb;
   --color_2: #9ba747;
   --color_2t: #9ba7478c;
   --color_3: #f29d4b;
@@ -12,7 +13,7 @@
   --color_5t:#8b281f8c;
   --color_6:#104960;
 
-  --shadow: var(--color_5t);
+  --shadow: rgba(0, 0, 0, 0.2);
 
   // COLORS ASIGNED
   --color_font: var(--color_6);
@@ -29,12 +30,12 @@
 
   // Link
   --color_link: var(--color_4);
-  --color_link_hover: var(--color_3);
-  --bg_link_hover: var(--color_5);
+  --color_link_hover: var(--color_5);
+  --bg_link_hover: var(--color_2);
 
   // Background
-  --bg-header: var(--color_3t);
-  --bg-footer: var(--color_5);
+  --bg-header: var(--color_1t);
+  --bg-footer: var(--color_2);
   --bg-main: va(--color_6);
 
   // FONTS
@@ -140,24 +141,25 @@ main {
   padding: var(--16);
 }
 
+
 /************************CLASES COMUNES*************************/
 
 .active {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .pointer {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .invisible {
-  visibility: hidden;
+  visibility: hidden !important;
 }
 
 .visible {
-  visibility: initial;
+  visibility: initial !important;
 }
