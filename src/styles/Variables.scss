@@ -62,27 +62,6 @@
     --22: 22px;
     --24: 24px;
 
-    // Size Asigned
-      --size_text_d: var(--18);
-      --size_text_m: var(--16);
-
-      --size_title_m: 28px;
-      --size_title_d: var(--24);
-
-      --size_subtitle_m: var(--24);
-      --size_subtitle_d: var(--22);
-
-      --size_button_m: var(--22);
-      --size_button_m: var(--18);
-
-      --size_link_m: var(--22);
-      --size_link_d: var(--18);
-
-      --size_menu_d: var(--22);
-      --size_menu_m: var(--18);
-
-      --size_logo_rrss_m: 45px;
-
   /* MAX-WIDTH */
     --width-xs: 100%;
     --width-xs-container: 90%;
@@ -141,7 +120,36 @@ main {
   padding: var(--16);
 }
 
+@mixin menuFont {
+  font-family: var(--font_text);
+  font-size: var(--22);
+}
 
+@mixin smallFont {
+font-family: var(--font_text);
+font-size: var(--18);
+}
+
+@mixin bigFont {
+font-family: var(--font_text);
+font-size: var(--22);
+}
+
+@mixin BigestFont {
+  font-family: var(--font_text);
+  font-size: var(--24);
+}
+
+@mixin subtitleFont {
+  font-family: var(--font_title);
+  font-size: 28px;
+
+}
+
+@mixin titleFont{
+font-family: var(--font_title);
+font-size: var(--);
+}
 /************************CLASES COMUNES*************************/
 
 .active {
