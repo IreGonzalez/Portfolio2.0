@@ -1,3 +1,5 @@
+// @import url(../content/font/fonts.css);
+
 :root {
 
   // COLORS
@@ -37,7 +39,7 @@
   // FONTS
 
     // Family
-      --font_text: 'Lato';
+      --font_text: 'lato-thin';
       --font_title: 'Didot';
 
     // Weight
@@ -73,6 +75,7 @@
 
 body{
   background-color: var(--color_1);
+  font-family: var(--font_text);
   color: var(--color_font);
 }
 main {
