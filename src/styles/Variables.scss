@@ -15,10 +15,6 @@
 
   --shadow: rgba(0, 0, 0, 0.2);
 
-  // COLORS ASIGNED
-  --color_font: var(--color_6);
-  --color_font2: var(--color_5);
-
     // Button
   --color_font_button_A: var(--color_6);
   --color_button_A: var(--color_2);
@@ -120,36 +116,53 @@ main {
   padding: var(--16);
 }
 
+/************************ TIPOGRAFÍAS *************************/
+
 @mixin menuFont {
   font-family: var(--font_text);
   font-size: var(--22);
+  color: var(--color_5);
+  font-weight: var(--regular);
+  &:hover{
+    color: var(--color_4)
+  }
 }
 
 @mixin smallFont {
 font-family: var(--font_text);
 font-size: var(--18);
+color: var(--color_6);
+font-weight: var(--light);
 }
 
 @mixin bigFont {
 font-family: var(--font_text);
 font-size: var(--22);
+color: var(--color_6);
+font-weight: var(--light);
 }
 
 @mixin BigestFont {
   font-family: var(--font_text);
   font-size: var(--24);
+  color: var(--color_6);
+  font-weight: var(--semiBold);
 }
 
 @mixin subtitleFont {
   font-family: var(--font_title);
-  font-size: 28px;
-
+  font-size: var(--24);
+color: var(--color_6);
+font-weight: var(--bold);
 }
 
 @mixin titleFont{
 font-family: var(--font_title);
-font-size: var(--);
+font-size: 28px;
+color: var(--color_6);
+font-weight: var(--regular);
 }
+
 /************************CLASES COMUNES*************************/
 
 .active {
