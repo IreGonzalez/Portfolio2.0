@@ -1,5 +1,5 @@
 // STYLESHEET
-import "../styles/Main.scss";
+import "../styles/main.scss";
 
 const Projects = (props) => {
 	return (

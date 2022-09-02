@@ -1,5 +1,5 @@
 // STYLESHEET
-import "../styles/Header.scss";
+import "../styles/main.scss";
 
 const Header = (props) => {
 	return (

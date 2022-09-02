@@ -1,4 +1,5 @@
-import "../styles/App.scss";
+import "../styles/main.scss";
+import "../styles/pages/App.scss";
 
 // COMPONENTS
 import Header from "./header.js";
