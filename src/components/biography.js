@@ -1,6 +1,4 @@
 // STYLESHEET
-import "../styles/main.scss";
-
 const Bio = (props) => {
 	return (
 		<main>

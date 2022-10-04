@@ -1,4 +1,4 @@
-import "../styles/main.scss";
+import "../";
 import "../styles/pages/App.scss";
 
 // COMPONENTS

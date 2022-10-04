@@ -1,0 +1,41 @@
+   @font-face {
+    font-family: "lato-light";
+    src: local("./font/Lato/Lato-Light.ttf"), url("./font/Lato/Lato-Light.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "lato-thin";
+    src: local("./font/Lato/Lato-Thin.ttf"), url("./font/Lato/Lato-Thin.ttf") format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "lato-Regular";
+    src: local("./font/Lato/Lato-Regular.ttf"), url("./font/Lato/Lato-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "lato-Bold";
+    src: local("./font/Lato/Lato-Bold.ttf"), url("./font/Lato/Lato-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "lato-Black";
+    src: local("./font/Lato/Lato-Black.ttf"), url("./font/Lato/Lato-Black.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Didot";
+    src: local("./font/GFS_Didot/"), url("./font/GFS_Didot/GFSDidot-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

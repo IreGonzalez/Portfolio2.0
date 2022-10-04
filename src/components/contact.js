@@ -1,7 +1,4 @@
 // STYLESHEET
-
-import "../styles/main.scss";
-
 const Contact = (props) => {
   return (
     <main>
