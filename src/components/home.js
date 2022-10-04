@@ -1,5 +1,5 @@
 // STYLESHEET
-import "../styles/main.scss";
+import "../styles/core/_variables.scss";
 
 const Home = (props) => {
 	return (

@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App';
 import 'typeface-lato'
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+
+ ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 

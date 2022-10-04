@@ -1,6 +1,9 @@
 import "../";
 import "../styles/pages/App.scss";
 
+// HOOKS
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
+
 // COMPONENTS
 import Header from "./header.js";
 import Footer from "./footer.js";
@@ -13,10 +16,13 @@ function App() {
 	return (
 		<div className="App">
 			<Header></Header>
-			<Home></Home>
-			<Projects></Projects>
-			<Bio></Bio>
-			<Contact></Contact>
+			<Routes>
+				<Route index path="/" element={<Home />} />
+				<Route path="/bio" element={<Bio />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/contact" element={<Contact />} />
+			</Routes>
+
 			<Footer></Footer>
 		</div>
 	);
