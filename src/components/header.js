@@ -20,13 +20,13 @@ const Header = (props) => {
 							<Link to="/bio">Biografía</Link>
 						</li>
 						<li>
-							<Link to="/proyectos">Proyectos</Link>
+							<Link to="/projects">Proyectos</Link>
 						</li>
 						<li>
 							<Link to="/cv">Currículum</Link>
 						</li>
 						<li>
-							<Link to="/contacto">Contacto</Link>
+							<Link to="/contact">Contacto</Link>
 						</li>
 					</ul>
 
