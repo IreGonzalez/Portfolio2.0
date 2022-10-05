@@ -1,6 +1,5 @@
 // STYLESHEET
 import "../styles/core/_variables.scss";
-import "../styles/main.scss";
 
 const Footer = (props) => {
 	return (
