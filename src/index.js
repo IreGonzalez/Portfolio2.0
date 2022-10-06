@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import './index.css';
 import App from './components/App';
-import 'typeface-lato'
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
+import 'typeface-lato';
 
 
- ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+	<BrowserRouter>
+    <Routes>
+      
+    </Routes>
+		<App />
+	</BrowserRouter>
 );
 

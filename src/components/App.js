@@ -1,5 +1,7 @@
 import "../";
 import "../styles/pages/App.scss";
+// HOK
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // HOOKS
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
