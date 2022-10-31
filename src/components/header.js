@@ -15,7 +15,7 @@ const Header = (props) => {
 					<Link to="./">Home</Link>
 					<Link to="./bio">Biografía</Link>
 					<Link to="./projects">Proyectos</Link>
-					<Link to="./cv">Currículum</Link>
+					<Link to="./curriculum">Currículum</Link>
 					<Link to="./contact">Contacto</Link>
 				</nav>
 			</div>
