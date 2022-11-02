@@ -1,6 +1,8 @@
 // STYLESHEET
 import "../styles/core/_variables.scss";
 
+//HOOKS
+import { Link } from "react-router-dom";
 const Footer = (props) => {
 	return (
 		<footer>
@@ -8,11 +10,11 @@ const Footer = (props) => {
 				<p>©2022 I love Mixins</p>
 			</div>
 			<nav>
-				<p>Home</p>
-				<p>Biografía</p>
-				<p>Proyectos</p>
-				<p>Currículum</p>
-				<p>Contacto</p>
+				<Link to="./">Home</Link>
+				<Link to="./bio">Biografía</Link>
+				<Link to="./projects">Proyectos</Link>
+				<Link to="./curriculum">Currículum</Link>
+				<Link to="./contact">Contacto</Link>
 			</nav>
 			<nav>
 				<a href="https://www.linkedin.com/in/iregonzalez" title="LinkedIn">

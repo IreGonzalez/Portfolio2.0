@@ -47,113 +47,113 @@
 				"name": "Buscador de Personajes",
 				"date": "",
 				"type": "own",
-				"description-short": "Se trata de un buscador de personajes de la serie de animación Rick y Morty",
+				"descriptionShort": "Se trata de un buscador de personajes de la serie de animación Rick y Morty",
 				"description": [
 					"Si te gusta la serie echa un vistazo a los personajes que han surgido hasta ahora, filtralos como quieras y... ¡A por los siguientes!",
 					"En este ejercicio final las directrices únicamente solicitaban una petición a la Api y algún filtro, pero no pude conformarme viendo que había tantos personajes decidí realizar la paginación (aún no es perfecta, pronto seguiré trabajando en ella)",
 					"A la hora de realizar los filtros me encontré con el handicap de no conocer la serie así que me las averigué para que en cada paginación los filtros se modifican de manera automática facilitando en cada momento las opciones necesarias.",
 					"Gracias a esto ya estoy trabajando con la nueva api adaptando el diseño de la página, estoy deseando poder enseñarla, aún queda tener un poco de paciencia."
 				],
-				"link-web": "https://iregonzalez.github.io/buscador-de-personajes/#/",
-				"link-github": "https://github.com/IreGonzalez/buscador-de-personajes",
+				"linkWeb": "https://iregonzalez.github.io/buscador-de-personajes/#/",
+				"linkGithub": "https://github.com/IreGonzalez/buscador-de-personajes",
 				"img": ""
 			},
 			{
 				"name": "Buscador de series",
 				"date": "",
 				"type": "own",
-				"description-short": "Web en la que almacenar un listado de tus series favoritas",
+				"descriptionShort": "Web en la que almacenar un listado de tus series favoritas",
 				"description": [
 					"Accede a la Web, realiza tu búsqueda y guarda tus series favoritas en la lista y si ya no te gusta, ¡borrala!",
 					"Cada vez que accedas a la web, tu selección permanecerá intacta en la caché de tu ordenador siempre que no la resetees.",
 					"Se trata del primer proyecto individual realizado por completo en JavaScript con el que puse a prueba mis conocimientos iniciales sobre este lenguaje."
 				],
-				"link-web": "https://iregonzalez.github.io/buscador-de-series/",
-				"link-github": "https://github.com/IreGonzalez/buscador-de-series",
+				"linkWeb": "https://iregonzalez.github.io/buscador-de-series/",
+				"linkGithub": "https://github.com/IreGonzalez/buscador-de-series",
 				"img": ""
 			},
 			{
 				"name": "Knit Projects",
 				"date": "",
 				"type": "own",
-				"description-short": "Web con la que organizar y filtrar tus proyectos tejeriles, aún es una versión primitiva, pero poco a poco irá creciendo",
+				"descriptionShort": "Web con la que organizar y filtrar tus proyectos tejeriles, aún es una versión primitiva, pero poco a poco irá creciendo",
 				"description": [
 					"Web con la que organizar y filtrar los proyectos kniting que estés realizando. Aunque aparentemente lo veas vacío, seguro que si consultas el código no te parece lo mismo.",
 					"Este proyecto comenzó siendo un gestor de clubs con el que me inicié en el uso de la biblioteca de JavaScrip, React. Realizamos este proyecto donde la mayor dificultad estaba en reprogramar nuestro cerebro.",
 					"Actualmente este proyecto está en plena fase de transformación, mi intención es completar las versiones tablet y desktop para hacerla totalmente responsive, también quiero implementar más funcionalidades como escoger entre distintas técnicas tejeriles o ordenarlos según prioridad de entrega."
 				],
-				"link-web": "https://iregonzalez.github.io/knit-projects/",
-				"link-github": "https://github.com/IreGonzalez/knit-projects",
+				"linkWeb": "https://iregonzalez.github.io/knit-projects/",
+				"linkGithub": "https://github.com/IreGonzalez/knit-projects",
 				"img": ""
 			},
 			{
 				"name": "Antiguo Portfolio",
 				"date": "",
 				"type": "own",
-				"description-short": "El primer proyecto que realicé de manera individual adaptado y rediseñado para ser mi portfolio",
+				"descriptionShort": "El primer proyecto que realicé de manera individual adaptado y rediseñado para ser mi portfolio",
 				"description": [
 					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
 					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
 				],
-				"link-web": "",
-				"link-github": "",
+				"linkWeb": "",
+				"linkGithub": "",
 				"img": ""
 			},
 			{
 				"name": "\"Google\" extension",
 				"date": "",
 				"type": "own",
-				"description-short": "Aplicación web en la que estoy trabajando y practicando JavaScript Vanilla",
+				"descriptionShort": "Aplicación web en la que estoy trabajando y practicando JavaScript Vanilla",
 				"description": [
 					"Landpage en la que estoy implementando distintas funcionalidades para practicar JavaScript Vanilla.",
 					"El fondo de pantalla cambia de forma random entre distintas imágenes extraídas de Flikr, al introducir tu nombre en el Input aoparecerá en tu saludo de Buenos días.",
 					"Actualmente sigo trabajando en este proyecto para implementar más funcionalidades, como que pase de Buenos días a Buenas tardes y noches, añadir frases motivacionales o curiosas, mejorar la  etc."
 				],
-				"link-web": "https://iregonzalez.github.io/google-extension/",
-				"link-github": "https://github.com/IreGonzalez/google-extension",
+				"linkWeb": "https://iregonzalez.github.io/google-extension/",
+				"linkGithub": "https://github.com/IreGonzalez/google-extension",
 				"img": ""
 			},
 			{
 				"name": "Antiguo Portfolio",
 				"date": "",
 				"type": "own",
-				"description-short": "Rediseño y adaptación de mi primera web individual",
+				"descriptionShort": "Rediseño y adaptación de mi primera web individual",
 				"description": [
 					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
 					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
 				],
-				"link-web": "",
-				"link-github": "",
+				"linkWeb": "",
+				"linkGithub": "",
 				"img": ""
 			},
 			{
 				"name": "Equipo Cabra",
 				"date": "",
 				"type": "teamwork",
-				"description-short": "Primera web realizada en equipo",
+				"descriptionShort": "Primera web realizada en equipo",
 				"description": ["", ""],
-				"link-web": "",
-				"link-github": "",
+				"linkWeb": "",
+				"linkGithub": "",
 				"img": ""
 			},
 			{
 				"name": "Awesome profile-cards",
 				"date": "",
 				"type": "teamwork",
-				"description-short": "Segundo proyecto en equipo, el primero en el que introdujimos JavaScript",
+				"descriptionShort": "Segundo proyecto en equipo, el primero en el que introdujimos JavaScript",
 				"description": ["", ""],
-				"link-web": "",
-				"link-github": "",
+				"linkWeb": "",
+				"linkGithub": "",
 				"img": ""
 			},
 			{
 				"name": "",
 				"date": "",
 				"type": "",
-				"description-short": "",
+				"descriptionShort": "",
 				"description": ["", ""],
-				"link-web": "",
-				"link-github": "",
+				"linkWeb": "",
+				"linkGithub": "",
 				"img": ""
 			}
 		]
