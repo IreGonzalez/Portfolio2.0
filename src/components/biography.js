@@ -1,5 +1,6 @@
 // STYLESHEET
 const Bio = (props) => {
+	
 	return (
 		<main>
 			<p>{props.dataBio.biography}</p>

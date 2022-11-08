@@ -7,13 +7,13 @@ const Contact = (props) => {
 				formulario.
 			</p>
 			<form id="form" action="https://formspree.io/f/xayaggje" method="POST">
-				<label for="Name">Nombre *</label>
+				<label htmlFor="Name">Nombre *</label>
 				<input placeholder="Escribe tu nombre..." type="text" id="Name" name="Name" />
-				<label for="emailAddress">E-mail *</label>
+				<label htmlFor="emailAddress">E-mail *</label>
 				<input placeholder="Escribe tu E-mail..." required type="email" id="emailAddress" name="emailAddress" />
-				<label for="phone">Teléfono</label>
-				<input placeholder="Ej:123456789" minlength="9" maxlength="13" type="tel" id="phone" name="phone" />
-				<label for="comments">Mensaje *</label>
+				<label htmlFor="phone">Teléfono</label>
+				<input placeholder="Ej:123456789" minLength="9" maxLength="13" type="tel" id="phone" name="phone" />
+				<label htmlFor="comments">Mensaje *</label>
 				<textarea
 					placeholder="Escribe tu consulta"
 					required
@@ -21,10 +21,10 @@ const Contact = (props) => {
 					id="comments"
 					name="comments"
 					size="15"
-					maxlength="500"
+					maxLength="500"
 				/>
 				<p>
-					<span class="js_counter">0</span>/500
+					<span className="js_counter">0</span>/500
 				</p>
 				<input type="submit" value="Enviar" />
 			</form>
