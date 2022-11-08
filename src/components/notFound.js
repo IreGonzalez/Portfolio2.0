@@ -1,5 +1,5 @@
 
-function notFound() {
+function NotFound() {
 	return (
 		<div className="notFound">
       <p>
@@ -9,4 +9,4 @@ function notFound() {
 	);
 }
 
-export default notFound;
+export default NotFound;

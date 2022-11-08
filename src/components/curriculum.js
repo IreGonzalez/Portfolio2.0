@@ -1,10 +1,24 @@
+// COMPONENTS
+import NotFound from "./notFound";
+// STYLESHEET
+
 function curriculum(props) {
+	const dataText = props.dataCV.curriculumText;
+	console.log("datatext",dataText);
+	const html = dataText.map((cvText) =>{
+			return (
+				<p>{cvText}</p>
+			)
+		})
+		
+	if (props.dataCV.length === 0){
+		return (
+			<NotFound/>
+		)
+	}
 	return (
 		<div className="cv">
-			<p>{props.dataCV.curriculumText[0]}</p>
-			<p>{props.dataCV.curriculumText[1]}</p>
-			<p>{props.dataCV.curriculumText[2]}</p>
-			<p>{props.dataCV.curriculumText[3]}</p>
+			{html}
 		</div>
 	);
 }

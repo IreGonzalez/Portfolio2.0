@@ -1,5 +1,6 @@
 [
 	{
+		"id": "b0",
 		"name": "Irene",
 		"surname": "González Pinilla",
 		"description": [
@@ -11,6 +12,7 @@
 		]
 	},
 	{
+		"id": "b1",
 		"biography": [
 			"En mi casa siempre hubo ordenador y como en casi todos sitios había que turnarse como buenos hermanos. Para poder jugar me las tenía que ver con MS-DOS y en casa de mi abuelo jugábamos al Arkanoid en una pantalla de 16 colores gracias al disco de 5 1/4, todo un lujazo.",
 			"Durante la carrera, gracias a Ubuntu, fui capaz a sobrevivir a Windows Vista y empecé a adentrarme en el mundo del software libre de forma totalmente autodidacta. Incluso me atreví a instalarme un emulador de windows...wine...con el que me peleé hasta aburrirme, solo para intentar jugar.",
@@ -27,16 +29,19 @@
 		],
 		"curious": [
 			{
+				"id": "bc001",
 				"title": "Lectora",
 				"description": "Me gusta tener un libro en la retaguardia con el que viajar e imaginar. Adoro el poder que tiene la lectura y siempre que tengo un poco más de tiempo aprovecho para leer unas pocas o muchas páginas."
 			},
 			{
+				"id": "bc002",
 				"title": "Crochetera",
-				"description": "Me encanta ver series, pero estar con las manos queitas me cuenta un poco así que suelo tener un proyecto entre manos, suelo decirme que solo una vuelta más y lo dejo..., pero no suele ser solo una"
+				"description": "Me encanta ver series, pero estar con las manos queitas me cuenta un poco así que suelo tener un proyecto entre manos, suelo decirme que solo una vuelta más y lo dejo..., pero no suele ser solo una."
 			},
 			{
+				"id": "bc003",
 				"title": "Ordenada",
-				"description": "No me gusta repetir las cosas ni tampoco que aquello que tengo que hacer se convierta en eterno, por eso me gusta me gusta investigar y probar maneras más eficientes de hacer las cosas, así economizo mi tiempo"
+				"description": "No me gusta repetir las cosas ni tampoco que aquello que tengo que hacer se convierta en eterno, por eso me gusta me gusta investigar y probar maneras más eficientes de hacer las cosas, así economizo mi tiempo."
 			}
 		]
 	},
@@ -44,6 +49,65 @@
 		"description": "En el siguiente apartado encontrarás por orden de ejecución los ejercicios realizados en las evaluaciones de Adalab, algunas ya están modificadas y otras son completamente nuevas y de idea propia.",
 		"projects": [
 			{
+				"id": "pi00",
+				"name": "Antiguo Portfolio",
+				"date": "",
+				"type": "own",
+				"descriptionShort": "El primer proyecto que realicé de manera individual adaptado y rediseñado para ser mi portfolio",
+				"description": [
+					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
+					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
+				],
+				"linkWeb": "",
+				"linkGithub": "",
+				"img": ""
+			},
+			{
+				"id": "pi01",
+				"name": "Antiguo Portfolio",
+				"date": "",
+				"type": "own",
+				"descriptionShort": "Rediseño y adaptación de mi primera web individual",
+				"description": [
+					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
+					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
+				],
+				"linkWeb": "",
+				"linkGithub": "",
+				"img": ""
+			},
+			{
+				"id": "pi02",
+				"name": "Knit Projects",
+				"date": "",
+				"type": "own",
+				"descriptionShort": "Web con la que organizar y filtrar tus proyectos tejeriles, aún es una versión primitiva, pero poco a poco irá creciendo",
+				"description": [
+					"Web con la que organizar y filtrar los proyectos kniting que estés realizando. Aunque aparentemente lo veas vacío, seguro que si consultas el código no te parece lo mismo.",
+					"Este proyecto comenzó siendo un gestor de clubs con el que me inicié en el uso de la biblioteca de JavaScrip, React. Realizamos este proyecto donde la mayor dificultad estaba en reprogramar nuestro cerebro.",
+					"Actualmente este proyecto está en plena fase de transformación, mi intención es completar las versiones tablet y desktop para hacerla totalmente responsive, también quiero implementar más funcionalidades como escoger entre distintas técnicas tejeriles o ordenarlos según prioridad de entrega."
+				],
+				"linkWeb": "https://iregonzalez.github.io/knit-projects/",
+				"linkGithub": "https://github.com/IreGonzalez/knit-projects",
+				"img": ""
+			},
+			{
+				"id": "pi03",
+				"name": "Buscador de series",
+				"date": "",
+				"type": "own",
+				"descriptionShort": "Web en la que almacenar un listado de tus series favoritas",
+				"description": [
+					"Accede a la Web, realiza tu búsqueda y guarda tus series favoritas en la lista y si ya no te gusta, ¡borrala!",
+					"Cada vez que accedas a la web, tu selección permanecerá intacta en la caché de tu ordenador siempre que no la resetees.",
+					"Se trata del primer proyecto individual realizado por completo en JavaScript con el que puse a prueba mis conocimientos iniciales sobre este lenguaje."
+				],
+				"linkWeb": "https://iregonzalez.github.io/buscador-de-series/",
+				"linkGithub": "https://github.com/IreGonzalez/buscador-de-series",
+				"img": ""
+			},
+			{
+				"id": "pi04",
 				"name": "Buscador de Personajes",
 				"date": "",
 				"type": "own",
@@ -59,47 +123,7 @@
 				"img": ""
 			},
 			{
-				"name": "Buscador de series",
-				"date": "",
-				"type": "own",
-				"descriptionShort": "Web en la que almacenar un listado de tus series favoritas",
-				"description": [
-					"Accede a la Web, realiza tu búsqueda y guarda tus series favoritas en la lista y si ya no te gusta, ¡borrala!",
-					"Cada vez que accedas a la web, tu selección permanecerá intacta en la caché de tu ordenador siempre que no la resetees.",
-					"Se trata del primer proyecto individual realizado por completo en JavaScript con el que puse a prueba mis conocimientos iniciales sobre este lenguaje."
-				],
-				"linkWeb": "https://iregonzalez.github.io/buscador-de-series/",
-				"linkGithub": "https://github.com/IreGonzalez/buscador-de-series",
-				"img": ""
-			},
-			{
-				"name": "Knit Projects",
-				"date": "",
-				"type": "own",
-				"descriptionShort": "Web con la que organizar y filtrar tus proyectos tejeriles, aún es una versión primitiva, pero poco a poco irá creciendo",
-				"description": [
-					"Web con la que organizar y filtrar los proyectos kniting que estés realizando. Aunque aparentemente lo veas vacío, seguro que si consultas el código no te parece lo mismo.",
-					"Este proyecto comenzó siendo un gestor de clubs con el que me inicié en el uso de la biblioteca de JavaScrip, React. Realizamos este proyecto donde la mayor dificultad estaba en reprogramar nuestro cerebro.",
-					"Actualmente este proyecto está en plena fase de transformación, mi intención es completar las versiones tablet y desktop para hacerla totalmente responsive, también quiero implementar más funcionalidades como escoger entre distintas técnicas tejeriles o ordenarlos según prioridad de entrega."
-				],
-				"linkWeb": "https://iregonzalez.github.io/knit-projects/",
-				"linkGithub": "https://github.com/IreGonzalez/knit-projects",
-				"img": ""
-			},
-			{
-				"name": "Antiguo Portfolio",
-				"date": "",
-				"type": "own",
-				"descriptionShort": "El primer proyecto que realicé de manera individual adaptado y rediseñado para ser mi portfolio",
-				"description": [
-					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
-					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
-				],
-				"linkWeb": "",
-				"linkGithub": "",
-				"img": ""
-			},
-			{
+				"id": "pi20",
 				"name": "\"Google\" extension",
 				"date": "",
 				"type": "own",
@@ -113,20 +137,9 @@
 				"linkGithub": "https://github.com/IreGonzalez/google-extension",
 				"img": ""
 			},
+			
 			{
-				"name": "Antiguo Portfolio",
-				"date": "",
-				"type": "own",
-				"descriptionShort": "Rediseño y adaptación de mi primera web individual",
-				"description": [
-					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
-					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
-				],
-				"linkWeb": "",
-				"linkGithub": "",
-				"img": ""
-			},
-			{
+				"id": "pe00",
 				"name": "Equipo Cabra",
 				"date": "",
 				"type": "teamwork",
@@ -137,6 +150,7 @@
 				"img": ""
 			},
 			{
+				"id": "pe01",
 				"name": "Awesome profile-cards",
 				"date": "",
 				"type": "teamwork",
@@ -147,6 +161,7 @@
 				"img": ""
 			},
 			{
+				"id": "",
 				"name": "",
 				"date": "",
 				"type": "",
