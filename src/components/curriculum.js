@@ -4,10 +4,9 @@ import NotFound from "./notFound";
 
 function curriculum(props) {
 	const dataText = props.dataCV.curriculumText;
-	console.log("datatext",dataText);
 	const html = dataText.map((cvText) =>{
 			return (
-				<p>{cvText}</p>
+				<p key={cvText[50]}>{cvText}</p>
 			)
 		})
 		
@@ -17,9 +16,11 @@ function curriculum(props) {
 		)
 	}
 	return (
-		<div className="cv">
-			{html}
-		</div>
+		<main>
+			<div className="cv">
+				{html}
+			</div>
+		</main>
 	);
 }
 

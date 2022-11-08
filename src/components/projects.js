@@ -1,7 +1,32 @@
+// COMPONENTS
+import NotFound from "./notFound";
 // STYLESHEET
+
 import "../styles/core/_variables.scss";
 
 const Projects = (props) => {
+	const dataText = props.dataProjects;
+	const htmlProjects = dataText.map((textProject)=>{
+		return (
+			<div>
+				<h4>{textProject.name}</h4>
+				<p>{textProject.descriptionShort}</p>
+				<p>{textProject.description[0]}</p>
+				<p>{textProject.description[1]}</p>
+				<p>{textProject.description[2]}</p>
+				<p>{textProject.description[3]}</p>
+				<nav>
+					<a href="{textProject.linkWeb}" title="" target="_blank">
+						<img src="" />
+					</a>
+					<a href="{textProject.linkGithub}" title="" target="_blank">
+						<img src="" />
+					</a>
+				</nav>
+			</div>
+		)
+	})
+
 	return (
 		<main>
 			<h2>Proyectos</h2>
