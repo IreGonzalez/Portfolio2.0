@@ -76,9 +76,6 @@ body{
   font-family: var(--font_text);
   color: var(--color_font);
 }
-main {
-  padding-top: 150px;
-}
 // a{
 //   color: var(--color_link);
 //   &:hover{
@@ -166,7 +163,7 @@ font-weight: var(--regular);
 
 /************************CLASES COMUNES*************************/
 svg{
-  width: 18px;
+  max-width: 18px;
 }
 
 .active {
