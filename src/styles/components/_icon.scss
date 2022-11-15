@@ -1,0 +1,26 @@
+.social-nav{
+    display: flex;
+    gap: 5px;
+}
+
+.social-link{
+    font-size: var(--font-medium);
+    color: var(--color_icon);
+    &:hover{
+        color: var(--color_icon_hover);
+    }
+  }
+  .footer .social-link:hover{
+    color: var(--color_link_hover);
+  }
+  .hamburguer{
+    font-size: var(--font-medium);
+    color: var(--color_icon);
+    &:hover{
+      color: var(--color_icon_hover);
+      background-color: var(--bg_icon_hover);
+      padding: 4px;
+      border-radius: 50%;
+      margin: -4px;
+    }
+  }

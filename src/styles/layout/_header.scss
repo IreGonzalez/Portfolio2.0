@@ -1,7 +1,43 @@
-.social-link{
-  width: 45px;
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: var(--bg-header);
+
+  &__menu{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-menu);
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    top: 40px;
+    box-shadow: 0 5px 5px var(--shadow);
+  }
+  &__title{
+    font-size: var(--font-bigger);
+    font-family: var(--font_title);
+    font-weight: var(--w-bold);
+  }
 }
 
-.hamburguer{
-  width: 45px;
+.menu{
+  &-link:hover{
+    color: var(--color_link_hover);
+    font-weight: var(--w-bold);
+  }
+}
+
+@media all and (min-width: 481px){
+
+}
+@media all and (min-width: 768px){
+
+}
+@media all and (min-width: 1280px){
+  
+}
+@media all and (min-width: 1440px){
+  
 }

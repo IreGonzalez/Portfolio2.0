@@ -26,55 +26,59 @@
 
   // Link
   --color_link: var(--color_4);
-  --color_link_hover: var(--color_5);
+  --color_link_hover: var(--color_2);
   --bg_link_hover: var(--color_2);
+
+  --color_icon: var(--color_4);
+  --color_icon_hover: var(--color_5);
+  --bg_icon_hover: var(--color_2);
 
   // Background
   --bg-header: var(--color_1t);
-  --bg-footer: var(--color_2);
-  --bg-main: va(--color_6);
+  --bg-footer: var(--color_6);
+  --bg-main: var(--color_);
+  --bg-menu: var(--color_1);
 
   // FONTS
 
-    // Family
+    // Font Family
       --font_text: 'lato-thin';
       --font_title: 'Didot';
 
-    // Weight
-      --thin: 100;
-      --extraLight: 200;
-      --light: 300;
-      --regular: 400;
-      --medium: 500;
-      --semiBold: 600;
-      --bold: 700;
-      --extraBold: 800;
-      --black: 900;
+    // Font Weight
+      --w-thin: 100;
+      --w-extraLight: 200;
+      --w-light: 300;
+      --w-regular: 400;
+      --w-medium: 500;
+      --w-semiBold: 600;
+      --w-bold: 700;
+      --w-extraBold: 800;
+      --w-black: 900;
 
-    // Size
-    --14: 14px;
-    --16: 16px;
-    --18: 18px;
-    --22: 22px;
-    --24: 24px;
+    // Font Size
+    --font-smaller: 14px;
+    --font-small: 16px;
+    --font-medium: 18px;
+    --font-big: 22px;
+    --font-bigger: 24px;
 
-  /* MAX-WIDTH */
-    --width-xs: 100%;
-    --width-xs-container: 90%;
-    --width-m: 100%;
-    --width-m-container: 90%;
-    --width-t: 100%;
-    --width-t-container: 90%;
-    --width-d: 100%;
-    --width-d-container: 1054px;
 
-  // BACKGROUND
 }
 
 body{
   background-color: var(--color_1);
   font-family: var(--font_text);
   color: var(--color_font);
+}
+header{
+  min-height: 10vh;
+}
+main{
+  min-height: 65vh;
+}
+footer{
+  min-height: 25vh;
 }
 // a{
 //   color: var(--color_link);
