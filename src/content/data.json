@@ -1,19 +1,19 @@
-[
-	{
-		"id": "b0",
-		"name": "Irene",
-		"surname": "González Pinilla",
-		"description": [
-			"Programadora junior con un hambre atroz por aprender",
-			"Estudié conservación y restauración de obras de arte, carrera que me aportó grandes cualidades como la resistencia a la frustración, a hacer el trabajo de manera eficiente, trabajar bajo la presión de un tiempo de entrega muy ajustado, a trabajar en equipo aprovechando al máximo las capacidades de cada uno para sacar el mayor partrido",
-			"Aunque parezca en un principio que esta experiencia o conocimientos no aportan demasiado he aprendido que son cualidades francamente valiosas en cualquier ámbito laboral",
-			"Actualmente me encuentro trabajando como Programadora web junior donde mi función principal es la maquetación, para ello uso HTML5, CSS3, jQuery, gulp y sass",
-			"Para saciar mis ganas de aprender hago pequeños proyectos por mi cuenta, tanto en JavaScript Vanilla como en ReactJS"
-		]
-	},
-	{
+{
+		"intro": {
+			"id": "b0",
+			"name": "Irene",
+			"surname": "González Pinilla",
+			"description": [
+				"Programadora junior con un hambre atroz por aprender",
+				"Estudié conservación y restauración de obras de arte, carrera que me aportó grandes cualidades como la resistencia a la frustración, a hacer el trabajo de manera eficiente, trabajar bajo la presión de un tiempo de entrega muy ajustado, a trabajar en equipo aprovechando al máximo las capacidades de cada uno para sacar el mayor partrido",
+				"Aunque parezca en un principio que esta experiencia o conocimientos no aportan demasiado he aprendido que son cualidades francamente valiosas en cualquier ámbito laboral",
+				"Actualmente me encuentro trabajando como Programadora web junior donde mi función principal es la maquetación, para ello uso HTML5, CSS3, jQuery, gulp y sass",
+				"Para saciar mis ganas de aprender hago pequeños proyectos por mi cuenta, tanto en JavaScript Vanilla como en ReactJS"
+			]
+		},
+	"bio":{
 		"id": "b1",
-		"biography": [
+		"text": [
 			"En mi casa siempre hubo ordenador y como en casi todos sitios había que turnarse como buenos hermanos. Para poder jugar me las tenía que ver con MS-DOS y en casa de mi abuelo jugábamos al Arkanoid en una pantalla de 16 colores gracias al disco de 5 1/4, todo un lujazo.",
 			"Durante la carrera, gracias a Ubuntu, fui capaz a sobrevivir a Windows Vista y empecé a adentrarme en el mundo del software libre de forma totalmente autodidacta. Incluso me atreví a instalarme un emulador de windows...wine...con el que me peleé hasta aburrirme, solo para intentar jugar.",
 			"El día que me hablaron de Adalab y me pusieron sobre la mesa aquello de la programación front-end, lo tuve claro, era mi próximo destino."
@@ -45,7 +45,7 @@
 			}
 		]
 	},
-	{
+	"projects":{
 		"description": "En el siguiente apartado encontrarás por orden de ejecución los ejercicios realizados en las evaluaciones de Adalab, algunas ya están modificadas y otras son completamente nuevas y de idea propia.",
 		"projects": [
 			{
@@ -173,7 +173,7 @@
 			}
 		]
 	},
-	{
+	"cv":{
 		"curriculumText": [
 			"Durante los meses de formación en Adalab he realizado distintos tipos de proyectos: El primero que realicé sola es la base de la web por la que te encuentras navegando, a la que he realizado diversas modificaciones de maquetación, así como he añadido funcionalidades tales como el menú hamburguesa mediante Java Script.",
 			"Durante varias semanas he estado inmersa en el mundo de la programación gracias a Adalab, consiguiendo realizar proyectos individuales y en grupo, aplicando la filosofía Agile para gestionar el cambio constante en el que me encontraba sumergida junto a mis compañeras.",
@@ -181,4 +181,4 @@
 			"Me encanta la combinación del trabajo en equipo y el individual, poniendo en valor las cualidades de cada miembro por el bien del conjunto."
 		]
 	}
-]
+}

@@ -1,6 +1,5 @@
 // STYLESHEET
 import "../styles/core/_variables.scss";
-import "../styles/Main.scss";
 // COMPONENTS
 import Rrss from "./rrss";
 //HOOKS
