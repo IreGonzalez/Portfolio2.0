@@ -24,22 +24,26 @@ const Bio = ({data}) => {
 					))
 				} */}
 				<div>
+					<h2>Introducción al mundo tecnológico</h2>
 					{data.text.map((text, i) => (
 								<p>{text}</p>
 						))}
 				</div>
 				<div>
+					<h2>Formación</h2>
 					{data.curriculumText.map((text, i) => (
 								<p>{text}</p>
 						))}
 				</div>
 				<div>
+					<h2>Actualidad</h2>
 					{data.evolutionText.map((text, i) => (
 								<p>{text}</p>
 						))}
 				</div>
 			</div>
 			<div>
+				<h2>Datos curiosos</h2>
 				{dataText.map((textBio, i) => (
 					<div key={i}>
 						<p> {textBio.title}</p>
