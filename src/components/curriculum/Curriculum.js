@@ -9,15 +9,14 @@ function curriculum({data}) {
 		return <NotFound />;
 	}
 	const dataText = data.curriculumText;
-	const html = dataText.map((cvText) =>{
-			return (
-				<p key={cvText[50]}>{cvText}</p>
-			)
-		})
 	return (
 		<main>
 			<div className="cv">
-				{html}
+				{dataText.map((cvText, i) =>(
+					<p key={i}>
+						{cvText}
+					</p>
+				))}
 			</div>
 		</main>
 	);

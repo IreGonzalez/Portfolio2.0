@@ -10,9 +10,7 @@ const Bio = ({data}) => {
 	if (!data) {
 		return <NotFound />;
 	}
-
 	const dataText = data.curious;
-	
 	return (
 		<main>
 			<p>{data.biography}</p>

@@ -10,20 +10,15 @@ const Home = ({data}) => {
 		return <NotFound />;
 	}
 	const dataText = data.description;
-	console.log(dataText);
-	const htmlHome = dataText.map((paragraph)=>{
-		return (
-			<p>
-				{paragraph}
-
-			</p>
-	);
-	})
 
 	return (
 		<main>
 			<section>
-				{htmlHome}
+				{dataText.map((paragraph, i) =>(
+					<p key={i}>
+					{paragraph}
+					</p>
+				))}
 			</section>
 		</main>
 	);

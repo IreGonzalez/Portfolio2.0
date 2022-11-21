@@ -26,7 +26,6 @@ function App() {
 	// const dataCV = Data[3];
 	// const [dataHome, dataBio, dataProjects, dataCV] = Data
 	const{intro, bio, projects, cv} = Data
-	console.log(Data);
 	return (
 		<div className="App">
 			<Header></Header>

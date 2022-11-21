@@ -1,18 +1,14 @@
 
 const projectFile = ({projectData})=>{
     const data = projectData.description;
-    console.log(data);
-    const description = data.map((paragraph)=>{
-		return (
-			<p>{paragraph}</p>
-		)
-	})
     return (
         <div>
             <h4>{projectData.name}</h4>
             <p>{projectData.descriptionShort}</p>
             <div>
-                {description}
+                {data.map((paragraph, i) => (
+                    <p>{paragraph}</p>
+                ))}
             </div>
             <nav>
                 <a href="{projectData.linkWeb}" title="" target="_blank">

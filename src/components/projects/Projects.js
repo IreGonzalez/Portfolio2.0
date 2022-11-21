@@ -11,15 +11,6 @@ const Projects = ({data}) => {
 		return <NotFound />;
 	}
 	const dataText = data.projects;
-	console.log(data.projects);
-	const htmlProjects = dataText.map((textProject)=>{
-		return (
-			<ProjectFile 
-				projectData={textProject}
-				key={textProject.id}
-				/>
-		)
-	})
 
 	return (
 		<main>
@@ -30,7 +21,12 @@ const Projects = ({data}) => {
 				</p>
 			</section>
 			<section>
-				{htmlProjects}
+				{dataText.map((textProject, i) =>(
+					<ProjectFile 
+					projectData={textProject}
+					key={i}
+					/>
+				))}
 			</section>
 		</main>
 	);
