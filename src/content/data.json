@@ -1,16 +1,13 @@
 {
-		"intro": {
-			"id": "b0",
-			"name": "Irene",
-			"surname": "González Pinilla",
-			"description": [
-				"Programadora junior con un hambre atroz por aprender",
-				"Estudié conservación y restauración de obras de arte, carrera que me aportó grandes cualidades como la resistencia a la frustración, a hacer el trabajo de manera eficiente, trabajar bajo la presión de un tiempo de entrega muy ajustado, a trabajar en equipo aprovechando al máximo las capacidades de cada uno para sacar el mayor partrido",
-				"Aunque parezca en un principio que esta experiencia o conocimientos no aportan demasiado he aprendido que son cualidades francamente valiosas en cualquier ámbito laboral",
-				"Actualmente me encuentro trabajando como Programadora web junior donde mi función principal es la maquetación, para ello uso HTML5, CSS3, jQuery, gulp y sass",
-				"Para saciar mis ganas de aprender hago pequeños proyectos por mi cuenta, tanto en JavaScript Vanilla como en ReactJS"
-			]
-		},
+	"intro": {
+		"id": "b0",
+		"name": "Irene",
+		"surname": "González Pinilla",
+		"description": [
+			"Programadora Front-end y Restauradora de Bienes culturales",
+			"Te invito a que navegues por esta web y descubras cómo se fusionan estas dos disciplitas tan aparentemente distintas"
+		]
+	},
 	"bio":{
 		"id": "b1",
 		"text": [

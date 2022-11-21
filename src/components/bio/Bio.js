@@ -13,9 +13,32 @@ const Bio = ({data}) => {
 	const dataText = data.curious;
 	return (
 		<main>
-			<p>{data.biography}</p>
-			<p>{data.curriculumText}</p>
-			<p> {data.evolutionText}</p>
+			<div>
+				{/* {
+					data.map((dataPart, i) => (
+						<div>
+							{dataPart.map((text, i) => (
+								<p>{text}</p>
+							))}
+						</div>
+					))
+				} */}
+				<div>
+					{data.text.map((text, i) => (
+								<p>{text}</p>
+						))}
+				</div>
+				<div>
+					{data.curriculumText.map((text, i) => (
+								<p>{text}</p>
+						))}
+				</div>
+				<div>
+					{data.evolutionText.map((text, i) => (
+								<p>{text}</p>
+						))}
+				</div>
+			</div>
 			<div>
 				{dataText.map((textBio, i) => (
 					<div key={i}>
