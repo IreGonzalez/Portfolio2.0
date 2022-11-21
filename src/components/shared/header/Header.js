@@ -1,7 +1,9 @@
 // STYLESHEET
-import "../styles/core/_variables.scss";
+import "../../../styles/core/_variables.scss";
+import "./_header.scss";
+
 // COMPONENTS
-import Rrss from "./rrss";
+import Rrss from "../rrss/Rrss";
 //HOOKS
 import { Link } from "react-router-dom";
 

@@ -1,22 +1,23 @@
-import "../styles/pages/App.scss";
+// STYLESHEET
+import "./_app.scss";
 import "../styles/Main.scss";
 
 // HOOKS
 import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-// ARCHIVOS
+// FILES
 import Data from "../content/data.json";
 
 // COMPONENTS
-import Header from "./header.js";
-import Footer from "./footer.js";
-import Home from "./home.js";
-import Projects from "./projects";
-import Bio from "./Bio";
-import Contact from "./contact";
-import NotFound from "./notFound";
-import Curriculum from "./curriculum";
+import Header from "./shared/header/Header.js";
+import Footer from "./shared/footer/Footer.js";
+import Home from "./home/Home.js";
+import Projects from "./projects/Projects";
+import Bio from "./bio/Bio";
+import Contact from "./contact/Contact";
+import NotFound from "./shared/notFound/NotFound";
+import Curriculum from "./curriculum/Curriculum";
 
 function App() {
 	// const dataHome = Data[0];
@@ -30,10 +31,10 @@ function App() {
 		<div className="App">
 			<Header></Header>
 			<Routes>
-				<Route index path="/" element={<Home dataHome={intro} />} />
-				<Route path="/bio" element={<Bio dataBio={bio} />} />
-				<Route path="/projects" element={<Projects dataProjects={projects} />} />
-				<Route path="/curriculum" element={<Curriculum dataCV={cv} />} />
+				<Route index path="/" element={<Home data={intro} />} />
+				<Route path="/bio" element={<Bio data={bio} />} />
+				<Route path="/projects" element={<Projects data={projects} />} />
+				<Route path="/curriculum" element={<Curriculum data={cv} />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>

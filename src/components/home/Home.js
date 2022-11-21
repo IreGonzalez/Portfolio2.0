@@ -1,10 +1,15 @@
 // STYLESHEET
-import "../styles/core/_variables.scss";
-// COMPONENTS
-import NotFound from "./notFound";
+import "../../styles/core/_variables.scss";
+import "./_home.scss";
 
-const Home = (props) => {
-	const dataText = props.dataHome.description;
+// COMPONENTS
+import NotFound from "../shared/notFound/NotFound";
+
+const Home = ({data}) => {
+	if (!data) {
+		return <NotFound />;
+	}
+	const dataText = data.description;
 	console.log(dataText);
 	const htmlHome = dataText.map((paragraph)=>{
 		return (
@@ -14,12 +19,6 @@ const Home = (props) => {
 			</p>
 	);
 	})
-
-	if (dataText.length === 0){
-		return (
-			<NotFound/>
-		)
-	}
 
 	return (
 		<main>

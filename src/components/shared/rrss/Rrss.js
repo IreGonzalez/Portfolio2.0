@@ -1,6 +1,6 @@
 // STYLESHEET
-import "../styles/core/_variables.scss";
-import "../styles/Main.scss";
+import "../../../styles/core/_variables.scss";
+import "./_rrss.scss";
 
 const Rrss = (props) =>{
     return (

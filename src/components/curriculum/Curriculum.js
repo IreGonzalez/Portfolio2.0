@@ -1,20 +1,19 @@
 // COMPONENTS
-import NotFound from "./notFound";
+import NotFound from "../shared/notFound/NotFound";
 // STYLESHEET
+import "../../styles/core/_variables.scss";
+import "./_curriculum.scss";
 
-function curriculum(props) {
-	const dataText = props.dataCV.curriculumText;
+function curriculum({data}) {
+	if (!data) {
+		return <NotFound />;
+	}
+	const dataText = data.curriculumText;
 	const html = dataText.map((cvText) =>{
 			return (
 				<p key={cvText[50]}>{cvText}</p>
 			)
 		})
-		
-	if (props.dataCV.length === 0){
-		return (
-			<NotFound/>
-		)
-	}
 	return (
 		<main>
 			<div className="cv">

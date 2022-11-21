@@ -1,12 +1,17 @@
 // COMPONENTS
-import NotFound from "./notFound";
-import ProjectFile from "./projectFile";
+import NotFound from "../shared/notFound/NotFound";
+import ProjectFile from "./ProjectFile";
+
 // STYLESHEET
+import "../../styles/core/_variables.scss";
+import "./_projects.scss";
 
-import "../styles/core/_variables.scss";
-
-const Projects = (props) => {
-	const dataText = props.dataProjects.projects;
+const Projects = ({data}) => {
+	if (!data) {
+		return <NotFound />;
+	}
+	const dataText = data.projects;
+	console.log(data.projects);
 	const htmlProjects = dataText.map((textProject)=>{
 		return (
 			<ProjectFile 
@@ -16,18 +21,12 @@ const Projects = (props) => {
 		)
 	})
 
-	if (dataText.length === 0){
-		return (
-			<NotFound/>
-		)
-	}
-
 	return (
 		<main>
 			<h2>Proyectos</h2>
 			<section>
 				<p>
-					<p>{props.dataProjects.description}</p>
+					<p>{data.description}</p>
 				</p>
 			</section>
 			<section>

@@ -1,6 +1,6 @@
 
-const projectFile = (props)=>{
-    const data = props.projectData.description;
+const projectFile = ({projectData})=>{
+    const data = projectData.description;
     console.log(data);
     const description = data.map((paragraph)=>{
 		return (
@@ -9,16 +9,16 @@ const projectFile = (props)=>{
 	})
     return (
         <div>
-            <h4>{props.projectData.name}</h4>
-            <p>{props.projectData.descriptionShort}</p>
+            <h4>{projectData.name}</h4>
+            <p>{projectData.descriptionShort}</p>
             <div>
                 {description}
             </div>
             <nav>
-                <a href="{props.projectData.linkWeb}" title="" target="_blank">
+                <a href="{projectData.linkWeb}" title="" target="_blank">
                     <img src="" />
                 </a>
-                <a href="{props.projectData.linkGithub}" title="" target="_blank">
+                <a href="{projectData.linkGithub}" title="" target="_blank">
                     <img src="" />
                 </a>
             </nav>

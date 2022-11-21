@@ -1,8 +1,9 @@
 // STYLESHEET
-import "../styles/core/_variables.scss";
-import "../styles/Main.scss";
+import "../../../styles/core/_variables.scss";
+import "./_footer.scss";
+
 //COMPONENTS
-import Rrss from "./rrss";
+import Rrss from "../rrss/Rrss";
 //HOOKS
 import { Link } from "react-router-dom";
 const Footer = (props) => {

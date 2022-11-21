@@ -1,4 +1,10 @@
+// COMPONENTS
+import NotFound from "../shared/notFound/NotFound";
 // STYLESHEET
+import "../../styles/core/_variables.scss";
+import "./_contact.scss";
+
+
 const Contact = (props) => {
 	return (
 		<main>
