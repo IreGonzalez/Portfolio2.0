@@ -11,6 +11,14 @@ const Bio = ({data}) => {
 		return <NotFound />;
 	}
 	const dataText = data.curious;
+	
+	for(let group in data){
+		if(Array.isArray(data[group])){
+			data[group].map((text, i) => (
+				console.log(text)
+		))
+		}
+	}
 	return (
 		<main>
 			<div>
@@ -23,6 +31,7 @@ const Bio = ({data}) => {
 						</div>
 					))
 				} */}
+			
 				<div>
 					<h2>Introducción al mundo tecnológico</h2>
 					{data.text.map((text, i) => (
