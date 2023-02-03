@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.0002723mm"
+   height="3.5545888mm"
+   viewBox="0 0 5.0002723 3.5545888"
+   version="1.1"
+   id="svg2145"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="mail.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2147"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="10.248373"
+     inkscape:cx="32.102658"
+     inkscape:cy="17.710129"
+     inkscape:window-width="977"
+     inkscape:window-height="983"
+     inkscape:window-x="1117"
+     inkscape:window-y="4"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2142">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath844">
+      <path
+         d="M 0,595.28 H 841.89 V 0 H 0 Z"
+         id="path842" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath870">
+      <path
+         d="M 0,595.28 H 841.89 V 0 H 0 Z"
+         id="path868" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-76.426998,-109.05989)">
+    <g
+       id="g864"
+       transform="matrix(0.35277777,0,0,-0.35277777,61.046487,262.5451)">
+      <g
+         id="g866"
+         clip-path="url(#clipPath870)">
+        <g
+           id="g872"
+           transform="translate(44.7413,434.6182)">
+          <path
+             d="m 0,0 c -0.377,0 -0.685,-0.308 -0.685,-0.685 v -7.791 c 0,-0.379 0.308,-0.685 0.685,-0.685 h 11.888 c 0.379,0 0.685,0.306 0.685,0.685 v 7.791 C 12.573,-0.308 12.267,0 11.888,0 Z M 11.888,-9.618 H 0 c -0.63,0 -1.143,0.51 -1.143,1.142 v 7.791 c 0,0.629 0.513,1.143 1.143,1.143 h 11.888 c 0.629,0 1.143,-0.514 1.143,-1.143 v -7.791 c 0,-0.632 -0.514,-1.142 -1.143,-1.142"
+             style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path874" />
+        </g>
+        <g
+           id="g876"
+           transform="translate(50.6861,428.8893)">
+          <path
+             d="m 0,0 c -0.306,0 -0.609,0.101 -0.839,0.302 l -5.842,5.09 c -0.094,0.084 -0.105,0.227 -0.02,0.323 0.082,0.096 0.227,0.105 0.321,0.022 l 5.84,-5.09 c 0.293,-0.254 0.786,-0.254 1.078,0 L 6.376,5.736 C 6.472,5.82 6.614,5.811 6.7,5.713 6.782,5.619 6.773,5.475 6.677,5.392 L 0.839,0.304 C 0.607,0.101 0.304,0 0,0"
+             style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path878" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

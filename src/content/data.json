@@ -3,8 +3,8 @@
 		"name": "Irene",
 		"surname": "González Pinilla",
 		"description": [
-			"Programadora Front-end y Restauradora de Bienes culturales",
-			"Te invito a que navegues por esta web y descubras cómo se fusionan estas dos disciplitas tan aparentemente distintas"
+			"Programadora Front-end",
+			"Mantener el código limpio y ordenado es un mantra"
 		]
 	},
 	"bio":{
@@ -50,20 +50,6 @@
 				"date": "",
 				"type": "own",
 				"descriptionShort": "El primer proyecto que realicé de manera individual adaptado y rediseñado para ser mi portfolio",
-				"description": [
-					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
-					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
-				],
-				"linkWeb": "",
-				"linkGithub": "",
-				"img": ""
-			},
-			{
-				"id": "pi01",
-				"name": "Antiguo Portfolio",
-				"date": "",
-				"type": "own",
-				"descriptionShort": "Rediseño y adaptación de mi primera web individual",
 				"description": [
 					"Se trata del primer proyecto individual que realicé, en su origen tenía un aspecto diferente así que lo adapté y rediseñé para poder tener un portfolio al acabar en Adalab",
 					"Si entras en el enlace y navegas un poco en él entenderás porqué he decidido rediseñarlo y hacerlo completamente nuevo"
