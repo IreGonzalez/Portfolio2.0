@@ -1,28 +1,28 @@
-// STYLESHEET
-import "../../styles/core/_variables.scss";
-import "./_home.scss";
-
 // COMPONENTS
 import NotFound from "../shared/notFound/NotFound";
+import Rrss from "../shared/rrss/Rrss";
 
-const Home = ({data}) => {
-	if (!data) {
-		return <NotFound />;
-	}
-	const dataText = data.description;
+const Home = ({ data }) => {
+  if (!data) {
+    return <NotFound />;
+  }
+  const dataText = data.description;
 
-	return (
-		<main>
-			<section>
-				{dataText.map((paragraph, i) =>(
-					<p key={i}>
-					{paragraph}
-					</p>
-				))}
-			</section>
-		</main>
-	);
-	
+  return (
+    <main className="main__Home">
+      <section>
+        <h1>Irene González Pinilla</h1>
+        <h2>Front-end Developer</h2>
+        <Rrss></Rrss>
+        <div>
+          <p>{data.intro_history_text_bio_1}</p>
+          <p>{data.intro_history_text_bio_2}</p>
+          <p>{data.intro_history_text_bio_3}</p>
+          <p>{data.intro_history_text_bio_4}</p>
+        </div>
+      </section>
+    </main>
+  );
 };
 
 export default Home;

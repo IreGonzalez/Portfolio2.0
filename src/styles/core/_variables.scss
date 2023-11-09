@@ -1,43 +1,33 @@
 :root {
 
   // COLORS
-  --color_1: #d9dcd8;
-  --color_1t: #d9dcd8bb;
-  --color_2: #9ba747;
-  --color_2t: #9ba7478c;
-  --color_3: #f29d4b;
-  --color_3t: #f29d4b8c;
-  --color_4: #d57030;
-  --color_4t: #d570308c;
-  --color_5: #8b281f;
-  --color_5t:#8b281f8c;
-  --color_6:#104960;
-
-  --shadow: rgba(0, 0, 0, 0.2);
+  --color_1: #d3e8ea;
+  --color_2: #10083f;
+  --color_3: #00000c8f;
+  --color_4: #2693a9;
 
     // Button
-  --color_font_button_A: var(--color_6);
-  --color_button_A: var(--color_2);
-  --color_button_A_hover: var(--color_3);
+  // --color_font_button_A: var(--color_1);
+  // --color_button_A: var(--color_2);
+  // --color_button_A_hover: var(--color_3);
 
-  --color_font_button_B: var(--color_5);
-  --color_button_B: var(--color_4);
-  --color_button_B_hover: var(--color_3);
+  // --color_font_button_B: var(--color_5);
+  // --color_button_B: var(--color_4);
+  // --color_button_B_hover: var(--color_3);
 
   // Link
-  --color_link: var(--color_4);
-  --color_link_hover: var(--color_2);
+  --color_link: var(--color_1);
+  --color_link_hover: var(--color_4);
   --bg_link_hover: var(--color_2);
 
-  --color_icon: var(--color_4);
-  --color_icon_hover: var(--color_5);
+  --color_icon: var(--color_1);
+  --color_icon_hover: var(--color_4);
   --bg_icon_hover: var(--color_2);
 
   // Background
-  --bg-header: var(--color_1t);
-  --bg-footer: var(--color_6);
-  --bg-main: var(--color_);
-  --bg-menu: var(--color_1);
+  --bg-header: var(--color_2);
+  // --bg-footer: var(--color_6);
+  // --bg-menu: var(--color_1);
 
   // FONTS
 
@@ -57,135 +47,12 @@
       --w-black: 900;
 
     // Font Size
-    --font-smaller: 14px;
-    --font-small: 16px;
-    --font-medium: 18px;
-    --font-big: 22px;
-    --font-bigger: 24px;
-
-
-}
-
-body{
-  background-color: var(--color_1);
-  font-family: var(--font_text);
-  color: var(--color_font);
-}
-header{
-  min-height: 10vh;
-}
-main{
-  min-height: 65vh;
-}
-footer{
-  min-height: 25vh;
-}
-// a{
-//   color: var(--color_link);
-//   &:hover{
-//     color: var(--color_link_hover);
-//   }
-// }
-
-
-// MIXINS
-
-@mixin buttonA{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color_button_A);
-  border: var(--color_button_A_hover) 1px solid;
-  color:var(--color_font_button_A);
-  font-size: var(--18);
-  line-height: var(--22);
-  border-radius: calc(3 * var(--22));
-  text-align: center;
-  padding: var(--22);
-}
-
-@mixin buttonB {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color_button_B);
-  border: var(--color_button_B_hover) 1px solid;
-  color: var(--color_font_button_B);
-  font-size: var(--16);
-  line-height: var(--18);
-  border-radius: calc(3 * var(--18));
-  text-align: center;
-  padding: var(--16);
-}
-
-/************************ TIPOGRAFÍAS *************************/
-
-@mixin menuFont {
-  font-family: var(--font_text);
-  font-size: var(--22);
-  color: var(--color_5);
-  font-weight: var(--regular);
-  &:hover{
-    color: var(--color_4)
-  }
-}
-
-@mixin smallFont {
-font-family: var(--font_text);
-font-size: var(--18);
-color: var(--color_6);
-font-weight: var(--light);
-}
-
-@mixin bigFont {
-font-family: var(--font_text);
-font-size: var(--22);
-color: var(--color_6);
-font-weight: var(--light);
-}
-
-@mixin BigestFont {
-  font-family: var(--font_text);
-  font-size: var(--24);
-  color: var(--color_6);
-  font-weight: var(--semiBold);
-}
-
-@mixin subtitleFont {
-  font-family: var(--font_title);
-  font-size: var(--24);
-color: var(--color_6);
-font-weight: var(--bold);
-}
-
-@mixin titleFont{
-font-family: var(--font_title);
-font-size: 28px;
-color: var(--color_6);
-font-weight: var(--regular);
-}
-
-/************************CLASES COMUNES*************************/
-svg{
-  max-width: 18px;
-}
-
-.active {
-  text-decoration: underline !important;
-}
-
-.pointer {
-  cursor: pointer !important;
-}
-
-.hidden {
-  display: none !important;
-}
-
-.invisible {
-  visibility: hidden !important;
-}
-
-.visible {
-  visibility: initial !important;
+    --font-smaller: 18px;
+    --font-small: 22px;
+    --font-medium: 26px;
+    --font-big: 30px;
+    --font-bigger: 37px;
+  
+  // WIDTH
+    --max-width-desktop: 1250px;
 }
