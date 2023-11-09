@@ -39,6 +39,7 @@
 @media all and (min-width: 1280px){
   .header{
     &__menu{
+      padding: 0;
       max-width: var(--max-width-desktop);
     }
   }

@@ -9,7 +9,7 @@ const Home = ({ data }) => {
   const dataText = data.description;
 
   return (
-    <main className="main__Home">
+    <main className="main__home">
       <section>
         <h1>Irene González Pinilla</h1>
         <h2>Front-end Developer</h2>
