@@ -1,0 +1,23 @@
+.main__projects {
+    background-image: linear-gradient(to bottom, var(--color_2) 1%, var(--color_3) 20%), url("../../content/img/fotor-ai-artistic.jpg");
+    background-position: bottom right;
+    background-size: 180% auto;
+    position: fixed;
+    top: 84px;
+    min-height: calc(100vh - 80px);
+    &--title{
+
+    }
+    &--section{
+        &.intro{
+
+        }
+        &p{
+
+        }
+    }
+}
+
+.project--{
+    
+}
