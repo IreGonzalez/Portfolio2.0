@@ -1,0 +1,58 @@
+:root {
+
+  // COLORS
+  --color_1: #d3e8ea;
+  --color_2: #10083f;
+  --color_3: #00000c8f;
+  --color_4: #2693a9;
+
+    // Button
+  // --color_font_button_A: var(--color_1);
+  // --color_button_A: var(--color_2);
+  // --color_button_A_hover: var(--color_3);
+
+  // --color_font_button_B: var(--color_5);
+  // --color_button_B: var(--color_4);
+  // --color_button_B_hover: var(--color_3);
+
+  // Link
+  --color_link: var(--color_1);
+  --color_link_hover: var(--color_4);
+  --bg_link_hover: var(--color_2);
+
+  --color_icon: var(--color_1);
+  --color_icon_hover: var(--color_4);
+  --bg_icon_hover: var(--color_2);
+
+  // Background
+  --bg-header: var(--color_2);
+  // --bg-footer: var(--color_6);
+  // --bg-menu: var(--color_1);
+
+  // FONTS
+
+    // Font Family
+      --font_text: 'lato-thin';
+      --font_title: 'Didot';
+
+    // Font Weight
+      --w-thin: 100;
+      --w-extraLight: 200;
+      --w-light: 300;
+      --w-regular: 400;
+      --w-medium: 500;
+      --w-semiBold: 600;
+      --w-bold: 700;
+      --w-extraBold: 800;
+      --w-black: 900;
+
+    // Font Size
+    --font-smaller: 1rem;
+    --font-small: 1.2rem;
+    --font-medium: 1.4rem;
+    --font-big: 1.8rem;
+    --font-bigger: 2rem;
+  
+  // WIDTH
+    --max-width-desktop: 1250px;
+}

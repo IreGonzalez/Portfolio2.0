@@ -1,0 +1,50 @@
+.main__home{
+    background-image: linear-gradient(to bottom, var(--color_2) 1%, transparent 50%), linear-gradient(to right, var(--color_2) 2%, transparent 50%), url("../../content/img/fotor-ai-artistic.jpg");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 84px;
+    min-height: calc(100vh - 80px);
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--container{
+        max-width: var(--max-width-desktop);
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        max-height: 50vh;
+        gap: 30px;
+        color: var(--color_1);
+    }
+    &--title{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    &--text{
+        overflow: scroll;
+        font-size: var(--font-small);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        cursor: n-resize;
+        &::-webkit-scrollbar {display: none;}
+        &>.container {
+            width: 35%;
+            border-radius: 10px;
+            padding: 2rem;
+            background-color: var(--color_3);
+            &>p{
+                color: var(--color_1);
+                opacity: 100%;
+                margin: 15px 0;
+            }
+        }
+    }
+}
+
+// Si se ve el 100% del texto uqe no se modifique el cursor
