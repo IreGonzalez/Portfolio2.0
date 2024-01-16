@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.0645e994.css",
-    "main.js": "./static/js/main.f0fd0c05.js",
+    "main.css": "./static/css/main.0f30d680.css",
+    "main.js": "./static/js/main.19fd9b4b.js",
     "static/media/fotor-ai-artistic.jpg": "./static/media/fotor-ai-artistic.c59251c952ff917cd009.jpg",
     "static/media/fotor-ai-artistic-vertical.jpg": "./static/media/fotor-ai-artistic-vertical.4dec9b6723febd2d35cc.jpg",
     "static/media/lato-latin-300.woff": "./static/media/lato-latin-300.4d96f9e685a54d1ef6cf.woff",
@@ -25,11 +25,11 @@
     "static/media/lato-latin-300italic.woff2": "./static/media/lato-latin-300italic.dc62e1fd720db6f7d418.woff2",
     "static/media/lato-latin-100italic.woff2": "./static/media/lato-latin-100italic.89b95baaf00652c7c3af.woff2",
     "index.html": "./index.html",
-    "main.0645e994.css.map": "./static/css/main.0645e994.css.map",
-    "main.f0fd0c05.js.map": "./static/js/main.f0fd0c05.js.map"
+    "main.0f30d680.css.map": "./static/css/main.0f30d680.css.map",
+    "main.19fd9b4b.js.map": "./static/js/main.19fd9b4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0645e994.css",
-    "static/js/main.f0fd0c05.js"
+    "static/css/main.0f30d680.css",
+    "static/js/main.19fd9b4b.js"
   ]
 }
